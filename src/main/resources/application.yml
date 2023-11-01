@@ -3,5 +3,7 @@ spring:
     init:
       mode: always
   datasource:
-    url:
-
+    url: 'jdbc:postgresql://localhost:5432/db'
+    username: username
+    password: password
+    driverClass: org.postgresql.Driver
