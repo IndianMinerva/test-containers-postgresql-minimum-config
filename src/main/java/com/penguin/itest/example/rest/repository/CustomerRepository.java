@@ -1,4 +1,4 @@
-package com.penguin.itest.example.repository;
+package com.penguin.itest.example.rest.repository;
 
 import com.penguin.itest.example.entity.Customer;
 import org.springframework.data.repository.CrudRepository;

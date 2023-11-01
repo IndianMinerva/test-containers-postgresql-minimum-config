@@ -2,8 +2,11 @@ spring:
   sql:
     init:
       mode: always
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   datasource:
-#    url: 'jdbc:tc:postgresql:///db'
+    url: 'jdbc:postgresql://localhost:5432/db'
     username: username
     password: password
-    driverClass: org.postgresql.Driver
+#    driverClass: org.postgresql.Driver

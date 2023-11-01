@@ -1,7 +1,7 @@
 package com.penguin.itest.example;
 
 import com.penguin.itest.example.entity.Customer;
-import com.penguin.itest.example.repository.CustomerRepository;
+import com.penguin.itest.example.rest.repository.CustomerRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
